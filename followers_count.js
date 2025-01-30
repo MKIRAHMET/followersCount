@@ -20,3 +20,9 @@ function increaseCount() {
     displayCount();
     checkCountValue();
 }
+
+function resetCount() {
+    count = 0;
+    displayCount();
+    alert("Count reset to 0");
+}
